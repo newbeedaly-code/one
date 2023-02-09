@@ -5,7 +5,7 @@ server:
 # 数据源
 spring:
   application:
-    name: common
+    name: one
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -24,4 +24,4 @@ mybatis-plus:
 # FeignClient日志
 logging:
   level:
-    cn.newbeedaly.common.open: debug
+    cn.newbeedaly.one.open: debug
