@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class OneApplication {
 
-    // todo 添加BaseController 参考 https://blog.csdn.net/weixin_43641119/article/details/111658469
+    // 参考 https://blog.csdn.net/weixin_43641119/article/details/111658469
     public static void main(String[] args) {
         SpringApplication.run(OneApplication.class, args);
     }
