@@ -28,56 +28,15 @@
         <junit.version>4.12</junit.version>
     </properties>
     <dependencies>
-
-        <dependency>
-            <groupId>cn.newbeedaly</groupId>
-            <artifactId>order-api</artifactId>
-            <version>${order.version}</version>
-        </dependency>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
             <artifactId>order-domain</artifactId>
             <version>${order.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-openfeign</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>cn.newbeedaly</groupId>
-            <artifactId>pay-api</artifactId>
-            <version>${pay.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-openfeign</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>cn.newbeedaly</groupId>
             <artifactId>pay-domain</artifactId>
             <version>${pay.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-openfeign</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework.cloud</groupId>
-                    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
